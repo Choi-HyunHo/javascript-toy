@@ -1,0 +1,9 @@
+@mixin btn {
+  cursor: pointer;
+  padding: 20px 40px;
+  border: 1px solid black;
+  border-radius: 20px;
+  transition: all 0.5s ease;
+  background-color: beige;
+  font-weight: bold;
+}
