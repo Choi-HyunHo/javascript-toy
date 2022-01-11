@@ -12,8 +12,11 @@ a {
 button,
 input,
 textarea {
-  font-family: 'DM Sans', sans-serif;
   font-size: 16px;
+}
+
+button {
+  border: none;
 }
 
 button:focus,
