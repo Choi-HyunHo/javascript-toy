@@ -96,6 +96,9 @@ main section {
     font-size: 15px; }
     header h1 {
       font-size: 35px; }
+  .main-btn {
+    justify-content: flex-start;
+    margin-bottom: 50px; }
   main section {
     width: 80%;
     height: 100%;
@@ -120,6 +123,8 @@ main section {
     font-size: 12px; }
     header h1 {
       font-size: 20px; }
+  .main-btn .bg-btn {
+    padding: 10px 10px; }
   main section {
     width: 40%;
     font-size: 10px;

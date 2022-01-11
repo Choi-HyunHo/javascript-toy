@@ -94,6 +94,11 @@ main {
     }
   }
 
+  .main-btn {
+    justify-content: flex-start;
+    margin-bottom: 50px;
+  }
+
   main {
     section {
       width: 80%;
@@ -131,6 +136,12 @@ main {
 
     h1 {
       font-size: 20px;
+    }
+  }
+
+  .main-btn {
+    .bg-btn {
+      padding: 10px 10px;
     }
   }
 
