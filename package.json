@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "node-sass" : "node-sass",
-    "sass" : "node-sass -wr styles/main.scss main/style.css"
+    "node-sass": "node-sass",
+    "sass": "node-sass -wr styles/color_fliper.scss main/color_fliper.css"
   },
   "repository": {
     "type": "git",

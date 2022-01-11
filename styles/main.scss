@@ -1,3 +1,5 @@
+@import 'reset.scss';
+
 * {
   margin: 0;
   box-sizing: border-box;
@@ -15,6 +17,10 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  h1 {
+    font-size: 50px;
+  }
 }
 
 main {
@@ -41,6 +47,10 @@ main {
   header {
     width: 80%;
     font-size: 15px;
+
+    h1 {
+      font-size: 35px;
+    }
   }
 
   main {
@@ -53,7 +63,7 @@ main {
 
       div {
         width: 40%;
-        height: 330px;
+        height: 200px;
       }
     }
   }
@@ -77,6 +87,10 @@ main {
   header {
     width: 40%;
     font-size: 12px;
+
+    h1 {
+      font-size: 20px;
+    }
   }
 
   main {
@@ -88,7 +102,7 @@ main {
 
       div {
         width: 60%;
-        height: 330px;
+        height: 100px;
       }
     }
   }
