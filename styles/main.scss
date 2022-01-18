@@ -59,7 +59,7 @@ main {
   section {
     width: 100%;
     height: 100%;
-    margin-top: 80px;
+    margin-top: 150px;
     display: flex;
     justify-content: space-around;
 
@@ -73,7 +73,9 @@ main {
       }
     }
 
-    .color_fliper {
+    .color_fliper,
+    .coordinates,
+    .rabbit {
       a {
         &:hover {
           transition: color 0.5s ease-in-out;
