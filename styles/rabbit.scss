@@ -1,0 +1,42 @@
+body::-webkit-scrollbar {
+  display: none;
+  /* Chrome, Safari, Opera*/
+}
+
+.btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  margin-top: 20px;
+
+  button {
+    padding: 20px 40px;
+    border: 1px solid black;
+    border-radius: 20px;
+    transition: all 0.5s ease;
+    background-color: beige;
+    font-weight: bold;
+
+    &:hover {
+      background-color: #120a2a;
+      color: white;
+    }
+
+    &:nth-child(2) {
+      margin: 0 50px;
+    }
+  }
+}
+
+.carrot_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0;
+
+  img {
+    width: 150px;
+  }
+}
