@@ -1,6 +1,7 @@
 body {
   background-color: black;
   color: white;
+  margin: 0;
 }
 
 body::-webkit-scrollbar {
@@ -9,8 +10,6 @@ body::-webkit-scrollbar {
 
 .target {
   position: absolute;
-  top: 50%;
-  left: 50%;
   transform: translate(-50%, -50%); /* 타겟을 커서 가운데 배치 */
 }
 
@@ -22,19 +21,15 @@ body::-webkit-scrollbar {
 .horizontal {
   width: 100%;
   height: 1px;
-  top: 50%;
 }
 
 .vertical {
   height: 100%;
   width: 1px;
-  left: 50%;
 }
 
 .tag {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(20px, 20px);
   font-size: 20px;
+  margin: 20px;
 }
