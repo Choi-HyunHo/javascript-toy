@@ -15,6 +15,7 @@ function paintList(listItem) {
   const li = document.createElement('li')
   li.setAttribute('class', 'list__item')
   ul.append(li)
+  li.scrollIntoView({ block: 'center', behavior: 'smooth' })
 
   const div = document.createElement('div')
   div.setAttribute('class', 'list__item-info')

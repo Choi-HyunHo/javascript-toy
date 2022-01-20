@@ -61,6 +61,7 @@ section {
           transition: all 500ms ease;
           font-size: 22px;
           &:hover {
+            color: red;
             transform: scale(1.3);
           }
         }
