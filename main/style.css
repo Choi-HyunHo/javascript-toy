@@ -79,10 +79,11 @@ main section {
   height: 100%;
   margin-top: 150px;
   display: flex;
-  justify-content: space-around; }
+  justify-content: space-around;
+  flex-wrap: wrap; }
   main section div {
     width: 300px;
-    height: 400px;
+    height: 200px;
     text-align: center; }
     main section div h2 {
       margin-bottom: 50px; }
