@@ -23,7 +23,7 @@ window.addEventListener('scroll', () => {
       boundingRect.top > window.innerHeight * 0.1 &&
       boundingRect.top < window.innerHeight * 0.8
     ) {
-      if (currentItem) {
+      if (currentItem.classList.contains('visible')) {
         off()
       }
 
