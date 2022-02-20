@@ -37,7 +37,8 @@ li {
   box-sizing: border-box; }
 
 body {
-  margin: 0; }
+  margin: 0;
+  font-family: 'Gowun Dodum', sans-serif; }
 
 body::-webkit-scrollbar {
   display: none;
@@ -49,6 +50,15 @@ img {
 
 a {
   color: royalblue; }
+
+h1 {
+  margin: 20px 0 50px 0; }
+
+h2 {
+  margin-bottom: 30px; }
+
+p {
+  margin-bottom: 20px; }
 
 .global-width {
   max-width: 620px;
@@ -65,7 +75,8 @@ a {
   width: 100%;
   height: 100%;
   opacity: 0;
-  transition: 0.5s ease-in; }
+  transition: 0.5s ease-in;
+  will-change: opacity; }
 
 .scene-img {
   max-height: 100vh; }
@@ -100,3 +111,7 @@ a {
 [data-index='5'] .bird {
   left: 33%;
   bottom: 30%; }
+
+.global-footer {
+  padding: 2rem 0;
+  text-align: center; }

@@ -6,6 +6,7 @@
 
 body {
   margin: 0;
+  font-family: 'Gowun Dodum', sans-serif;
 }
 
 body::-webkit-scrollbar {
@@ -22,6 +23,17 @@ a {
   color: royalblue;
 }
 
+h1 {
+  margin: 20px 0 50px 0;
+}
+
+h2 {
+  margin-bottom: 30px;
+}
+
+p {
+  margin-bottom: 20px;
+}
 .global-width {
   max-width: 620px;
   margin: 0 auto;
@@ -39,6 +51,7 @@ a {
   height: 100%;
   opacity: 0;
   transition: 0.5s ease-in;
+  will-change: opacity;
 }
 
 .scene-img {
@@ -80,4 +93,9 @@ a {
 [data-index='5'] .bird {
   left: 33%;
   bottom: 30%;
+}
+
+.global-footer {
+  padding: 2rem 0;
+  text-align: center;
 }
