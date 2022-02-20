@@ -2,10 +2,16 @@ const graphicElems = document.querySelectorAll('.graphic-item')
 const stepElems = document.querySelectorAll('.step')
 
 const actions = {
-  birdFlies() {
-    document.querySelector(
-      '[data-index="2"] .bird'
-    ).style.transform = `translateX(${window.innerWidth}px)`
+  birdFlies(key) {
+    if (key) {
+      document.querySelector(
+        '[data-index="2"] .bird'
+      ).style.transform = `translateX(${window.innerWidth}px)`
+    } else {
+      document.querySelector(
+        '[data-index="2"] .bird'
+      ).style.transform = `translateX(-100%)`
+    }
   },
 }
 
@@ -32,7 +38,7 @@ window.addEventListener('scroll', () => {
       boundingRect.top < window.innerHeight * 0.8
     ) {
       if (currentItem.classList.contains('visible')) {
-        off()
+        off(currentItem.dataset.action)
       }
 
       currentItem = graphicElems[step.dataset.index]
@@ -45,11 +51,14 @@ function on(action) {
   currentItem.classList.add('visible')
   if (action) {
     // 새의 효과가 적용 되는 시점 가져오기
-    actions[action]()
+    actions[action](true)
   }
 }
 
-function off() {
+function off(action) {
   currentItem.classList.remove('visible')
+  if (action) {
+    actions[action](false)
+  }
 }
 on()
