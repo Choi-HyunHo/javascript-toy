@@ -89,7 +89,9 @@ main section {
       margin-bottom: 50px; }
   main section .color_fliper a:hover,
   main section .coordinates a:hover,
-  main section .rabbit a:hover {
+  main section .rabbit a:hover,
+  main section .shop a:hover,
+  main section .covid a:hover {
     transition: color 0.5s ease-in-out;
     color: blueviolet; }
 

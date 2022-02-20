@@ -76,7 +76,9 @@ main {
 
     .color_fliper,
     .coordinates,
-    .rabbit {
+    .rabbit,
+    .shop,
+    .covid {
       a {
         &:hover {
           transition: color 0.5s ease-in-out;
